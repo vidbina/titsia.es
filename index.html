@@ -1,0 +1,32 @@
+---
+layout: default
+title: Home
+show: false
+---
+
+<div id="home">
+  {% include paginator.html %}
+
+  <ul class="posts">
+    {% for post in paginator.posts %}
+    {% unless post.visible == false %}
+    <li>
+      <a href="{{ post.url }}">
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>
+        <h2>
+          <strong>{{ post.title }}</strong>
+        </h2>
+        <p>{{ post.description }}</p>
+        {% if post.embed %}
+        <div class="embed">
+        {{ post.embed }}
+        </div>
+        {% endif %}
+      </a>
+    </li>
+    {% endunless %}
+    {% endfor %}
+  </ul>
+
+  {% include paginator.html %}
+</div>

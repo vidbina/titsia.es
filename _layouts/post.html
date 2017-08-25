@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="post">
+  <header>
+    {% if page.dated %}
+    {% if page.since %}
+    since
+    <time datetime="{{ page.since | date: "%Y-%m-%d" }}">{{ page.since | date_to_string }}</time>
+    until
+    {% endif %}
+    <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
+    {% endif %}
+
+    <h1>
+      {{ page.title }}
+    </h1>
+  </header>
+
+  <div>
+    {{ content }}
+  </div>
+</article>

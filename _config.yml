@@ -1,0 +1,12 @@
+name: titsia.es UG
+markdown: kramdown
+highlighter: rouge
+gems:
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+paginate: 50
+emoji_dir: /images/emoji
+permalink: /:categories/:title/

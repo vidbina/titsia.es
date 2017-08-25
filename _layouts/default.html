@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html id="simple">
+  <head>
+    {% include meta.html %}
+
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/svg+xml" href="/svg/tee.svg">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/print.css" media="print">
+
+    <!-- head includes -->
+    {% if page.mathjax %}
+    {% include mathjax.html %}
+    {% endif %}
+
+    {% if page.function_plot %}
+    {% include function_plot.html %}
+    {% endif %}
+    <!-- end includes -->
+  </head>
+  <body class="light">
+    <div class="site">
+      <header>
+        <a href="/">
+        <h1 class="title">{{ site.name }}</h1>
+        {% include logo.html %}
+        </a>
+        <p>{{ site.slogan }}</p>
+      </header>
+
+      {{ content }}
+
+      <div class="footer">
+        <ul>
+          {% for page in site.pages %}
+          {% if page.show %}
+          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+        {% if false %}
+        <div class="contact">
+          <p>
+            
+          </p>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </body>
+</html>

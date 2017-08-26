@@ -15,7 +15,10 @@
    version="1.1"
    id="svg4624"
    inkscape:version="0.92.0 r15299"
-   sodipodi:docname="tee.svg">
+   sodipodi:docname="tee.svg"
+   inkscape:export-filename="/store/vidbina.home/titsia.es/icons/150x150.png"
+   inkscape:export-xdpi="360"
+   inkscape:export-ydpi="360">
   <defs
      id="defs4618" />
   <sodipodi:namedview
@@ -26,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="20.48"
-     inkscape:cx="34.143708"
+     inkscape:cx="19.031403"
      inkscape:cy="23.998946"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -35,10 +38,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="3176"
-     inkscape:window-height="1748"
-     inkscape:window-x="266"
-     inkscape:window-y="2710"
+     inkscape:window-width="2536"
+     inkscape:window-height="1388"
+     inkscape:window-x="10"
+     inkscape:window-y="38"
      inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
@@ -52,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,7 +74,7 @@
     <path
        id="path4607"
        d="m -398.3869,-235.19048 v 10.58334 h 10.58333 v -10.58334 z m 1.32291,1.32292 h 7.9375 v 1.32292 h -7.9375 z m 0,2.64583 h 7.9375 v 1.32292 h -2.64583 v 1.32292 h -2.64583 v -1.32292 h -2.64584 z m 0,2.64584 h 1.32292 v 1.32291 h 5.29167 v -1.32291 h 1.32291 v 2.64583 h -7.9375 z"
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="fill:#111111;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
